@@ -1,0 +1,37 @@
+*{
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1rem;
+ 
+}
+body{
+   border: gray 1px solid; 
+}
+.header{
+    display: flex;
+    padding: 10px;
+    background-color: #008000;
+}
+.menu{
+    display: flex;
+    flex-flow: wrap;
+    flex: 40%;
+}
+.menu div{
+    background-color: #b3afaff5;
+    color: white;
+    flex: 20%; 
+    padding: 20px;
+    margin: 20px;
+}
+.center{
+    text-align: center;
+}
+
+.footer{
+    padding: 10em;
+}
+
+
+
